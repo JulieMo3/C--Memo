@@ -1,0 +1,20 @@
+#pragma once
+#include <SDL.h>
+#include <SDL_image.h>
+#include <SDL_surface.h>
+#include <string>
+#include <cstring>
+#include <time.h>
+#include <cstdio>
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include <queue>
+#include <cmath>
+#include <SDL_ttf.h>
+#include "timer.h"
+#pragma warning(disable:4996);
+void idCarte(int id);
+class GameTool;
+class Object;
+class Memo;
